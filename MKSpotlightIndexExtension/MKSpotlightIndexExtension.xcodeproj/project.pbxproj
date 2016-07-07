@@ -15,6 +15,7 @@
 		FBD6F5941D2CAFE100B605D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD6F5921D2CAFE100B605D3 /* LaunchScreen.storyboard */; };
 		FBD6F5A31D2CAFFB00B605D3 /* IndexRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD6F5A21D2CAFFB00B605D3 /* IndexRequestHandler.m */; };
 		FBD6F5A71D2CAFFB00B605D3 /* MKSpotlightIndex.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FBD6F59F1D2CAFFB00B605D3 /* MKSpotlightIndex.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FBD6F5AD1D2CD5C600B605D3 /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD6F5AC1D2CD5C600B605D3 /* CoreSpotlight.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		FBD6F5A11D2CAFFB00B605D3 /* IndexRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexRequestHandler.h; sourceTree = "<group>"; };
 		FBD6F5A21D2CAFFB00B605D3 /* IndexRequestHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndexRequestHandler.m; sourceTree = "<group>"; };
 		FBD6F5A41D2CAFFB00B605D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD6F5AC1D2CD5C600B605D3 /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBD6F5AD1D2CD5C600B605D3 /* CoreSpotlight.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +82,7 @@
 		FBD6F5781D2CAFE100B605D3 = {
 			isa = PBXGroup;
 			children = (
+				FBD6F5AC1D2CD5C600B605D3 /* CoreSpotlight.framework */,
 				FBD6F5831D2CAFE100B605D3 /* MKSpotlightIndexExtension */,
 				FBD6F5A01D2CAFFB00B605D3 /* MKSpotlightIndex */,
 				FBD6F5821D2CAFE100B605D3 /* Products */,

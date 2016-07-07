@@ -7,6 +7,7 @@
 //
 
 #import <CoreSpotlight/CoreSpotlight.h>
+#import <UIKit/UIKit.h>
 
 @interface IndexRequestHandler : CSIndexExtensionRequestHandler
 
