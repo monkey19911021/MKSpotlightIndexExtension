@@ -37,7 +37,7 @@
      */
     CSSearchableItem *item = [[CSSearchableItem alloc] initWithUniqueIdentifier:@"MKApple" domainIdentifier:@"MKDomain" attributeSet:set];
     
-    //设置时效时间, 20秒
+    //设置时效时间, 10秒
     NSCalendar *calendar = [NSCalendar currentCalendar];
     item.expirationDate = [calendar dateFromComponents:[calendar componentsInTimeZone:calendar.timeZone fromDate:[[NSDate date] dateByAddingTimeInterval:10]]];
     [array addObject:item];
